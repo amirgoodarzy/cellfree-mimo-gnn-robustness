@@ -5,7 +5,7 @@ Author: **Amirmohammad Goodarzy** · University of Messina, Italy · November 20
 
 > **Status:** Independent **technical research report / portfolio project**, *not a peer-reviewed publication*. Numerical experiments were run on synthetic, normalized toy-scale networks. No real-world 5G/6G performance claims.
 
-<p align="center"><img src="figures/benchmark.png" width="830" alt="Benchmark of four allocation methods under clean and stressed synthetic networks"></p>
+<p align="center"><img src="benchmark.png" width="830" alt="Benchmark of four allocation methods under clean and stressed synthetic networks"></p>
 
 ## What this repository actually contains
 
