@@ -1,0 +1,177 @@
+{
+  "title": "CF-mMIMO miniature reproducible pilot study",
+  "seed": 42,
+  "train_scenarios": 480,
+  "validation_scenarios": 96,
+  "test_scenarios": 192,
+  "AP_count": 16,
+  "UE_count": 4,
+  "nearest_APs_per_UE": 8,
+  "prelog": 0.98,
+  "power_per_AP": 1.0,
+  "noise_power": 0.001,
+  "area_m": 500,
+  "pathloss_exponent": 3.2,
+  "orthogonal_pilots": true,
+  "pilot_length": 4,
+  "coherence_block": 200,
+  "CSI_log_error_epsilon": 0.3,
+  "AP_failure_rate": 0.25,
+  "best_validation_epoch": 77,
+  "train_seconds": 9.247587716999988,
+  "experiment_scope": "synthetic toy-scale networks only, no physical 3GPP calibration",
+  "comparisons": {
+    "clean": {
+      "uniform": {
+        "mean_worst_user_se": 1.2737802267074585,
+        "ci95_mean_worst_user_se": [
+          1.2435293197631836,
+          1.3046157360076904
+        ],
+        "median_worst_user_se": 1.2909332513809204,
+        "mean_user_se": 1.5523570775985718
+      },
+      "gain_proportional": {
+        "mean_worst_user_se": 1.160796046257019,
+        "ci95_mean_worst_user_se": [
+          1.1106183528900146,
+          1.210670828819275
+        ],
+        "median_worst_user_se": 1.1909472942352295,
+        "mean_user_se": 1.6764930486679077
+      },
+      "bipartite_gnn": {
+        "mean_worst_user_se": 1.5372495651245117,
+        "ci95_mean_worst_user_se": [
+          1.5094670057296753,
+          1.5650755167007446
+        ],
+        "median_worst_user_se": 1.5583233833312988,
+        "mean_user_se": 1.7135769128799438
+      },
+      "iterative_reference": {
+        "mean_worst_user_se": 1.5644569396972656,
+        "ci95_mean_worst_user_se": [
+          1.5372135639190674,
+          1.593024492263794
+        ],
+        "median_worst_user_se": 1.600364327430725,
+        "mean_user_se": 1.7104517221450806
+      }
+    },
+    "25pct_ap_outage": {
+      "uniform": {
+        "mean_worst_user_se": 1.055505394935608,
+        "ci95_mean_worst_user_se": [
+          1.027791976928711,
+          1.0809446573257446
+        ],
+        "median_worst_user_se": 1.064695119857788,
+        "mean_user_se": 1.3349295854568481
+      },
+      "gain_proportional": {
+        "mean_worst_user_se": 0.9108337759971619,
+        "ci95_mean_worst_user_se": [
+          0.8628541231155396,
+          0.9590489864349365
+        ],
+        "median_worst_user_se": 1.0011152029037476,
+        "mean_user_se": 1.4252878427505493
+      },
+      "bipartite_gnn": {
+        "mean_worst_user_se": 1.267701268196106,
+        "ci95_mean_worst_user_se": [
+          1.241914987564087,
+          1.2921929359436035
+        ],
+        "median_worst_user_se": 1.2791404724121094,
+        "mean_user_se": 1.4654699563980103
+      },
+      "iterative_reference": {
+        "mean_worst_user_se": 1.3345876932144165,
+        "ci95_mean_worst_user_se": [
+          1.3094087839126587,
+          1.3602451086044312
+        ],
+        "median_worst_user_se": 1.3554515838623047,
+        "mean_user_se": 1.4661117792129517
+      }
+    },
+    "bounded_random_csi_error": {
+      "uniform": {
+        "mean_worst_user_se": 1.2737802267074585,
+        "ci95_mean_worst_user_se": [
+          1.2435293197631836,
+          1.3046157360076904
+        ],
+        "median_worst_user_se": 1.2909332513809204,
+        "mean_user_se": 1.5523570775985718
+      },
+      "gain_proportional": {
+        "mean_worst_user_se": 1.1600669622421265,
+        "ci95_mean_worst_user_se": [
+          1.1089788675308228,
+          1.2106066942214966
+        ],
+        "median_worst_user_se": 1.1934633255004883,
+        "mean_user_se": 1.6754204034805298
+      },
+      "bipartite_gnn": {
+        "mean_worst_user_se": 1.5314744710922241,
+        "ci95_mean_worst_user_se": [
+          1.5029100179672241,
+          1.5592120885849
+        ],
+        "median_worst_user_se": 1.541664958000183,
+        "mean_user_se": 1.7120447158813477
+      },
+      "iterative_reference": {
+        "mean_worst_user_se": 1.5592308044433594,
+        "ci95_mean_worst_user_se": [
+          1.5320686101913452,
+          1.5871224403381348
+        ],
+        "median_worst_user_se": 1.5922727584838867,
+        "mean_user_se": 1.7089529037475586
+      }
+    },
+    "whitebox_fgsm_csi_error": {
+      "uniform": {
+        "mean_worst_user_se": 1.2737802267074585,
+        "ci95_mean_worst_user_se": [
+          1.2435293197631836,
+          1.3046157360076904
+        ],
+        "median_worst_user_se": 1.2909332513809204,
+        "mean_user_se": 1.5523570775985718
+      },
+      "gain_proportional": {
+        "mean_worst_user_se": 1.1412898302078247,
+        "ci95_mean_worst_user_se": [
+          1.091444969177246,
+          1.1899654865264893
+        ],
+        "median_worst_user_se": 1.1853997707366943,
+        "mean_user_se": 1.6670602560043335
+      },
+      "bipartite_gnn": {
+        "mean_worst_user_se": 1.4716976881027222,
+        "ci95_mean_worst_user_se": [
+          1.4430636167526245,
+          1.501191258430481
+        ],
+        "median_worst_user_se": 1.473872423171997,
+        "mean_user_se": 1.7028379440307617
+      },
+      "iterative_reference": {
+        "mean_worst_user_se": 1.5337791442871094,
+        "ci95_mean_worst_user_se": [
+          1.506035327911377,
+          1.5624570846557617
+        ],
+        "median_worst_user_se": 1.5623972415924072,
+        "mean_user_se": 1.7053416967391968
+      }
+    }
+  }
+}
