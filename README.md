@@ -106,7 +106,7 @@ figures/              experiment figures
 
 ## Paper and references
 
-**Research report:** [`paper/main.pdf`](paper/main.pdf) (also see the [editable LaTeX](paper/main.tex)). Do **not** describe this as an IEEE publication, journal paper or accepted preprint. It is an independently prepared portfolio technical report.
+**Research report:** [`paper/main.pdf`](cellfree-mimo-gnn-robustness/paper/main.pdf) (also see the [editable LaTeX](paper/main.tex)). Do **not** describe this as an IEEE publication, journal paper or accepted preprint. It is an independently prepared portfolio technical report.
 
 Background papers (work and results belong to their respective authors):
 
