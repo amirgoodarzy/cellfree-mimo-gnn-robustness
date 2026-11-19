@@ -34,7 +34,7 @@ The GNN is **20.7% above equal allocation** on clean test layouts and **1.7% bel
 
 | Clean-layout CDF | Training and validation loss |
 |---|---|
-| <img src="figures/cdf_clean.png" width="405" alt="CDF of worst-user spectral efficiency"> | <img src="figures/learning_curve.png" width="405" alt="GNN training history"> |
+| <img src="cdf_clean.png" width="405" alt="CDF of worst-user spectral efficiency"> | <img src="learning_curve.png" width="405" alt="GNN training history"> |
 
 ## Reproduce the experiment
 
